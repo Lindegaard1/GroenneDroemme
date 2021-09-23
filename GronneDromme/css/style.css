@@ -3,7 +3,13 @@ h1,h2
 color: darkgreen;
 }
 
-a,p
+p
 {
 color: darkslategray; 
+}
+
+ul a
+{
+color: mediumseagreen;
+text-decoration: none;
 }
