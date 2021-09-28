@@ -3,7 +3,7 @@ h1,h2
     color: orangered;
     font-family: 'Patrick Hand', cursive;
     line-height: 4rem;
-    text-shadow: 0 -2px 2px 0 silver(0,0,0,0.2),
+    text-shadow: -2px 2px 2px silver;
 }
 
 h1
