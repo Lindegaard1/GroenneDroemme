@@ -134,7 +134,32 @@ li a
     padding: 15px;
 }
 
-img div
+.sidebar
 {
- width: 200px;
+    float:left;
+    background-color: hsla(33,39%,86%,0.5);
+    height: 100vh;
+    width: 230px;
+}
+
+.sidebar img
+{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 5px;
+}
+
+.TextBlog
+{
+    color: hsl(93, 86%, 27%);
+}
+
+.SidebarText
+{
+    display: inline;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px;
+    display: inline-block;
 }
