@@ -6,6 +6,13 @@ h1,h2
     text-shadow: -2px 2px 2px hsl(0, 3%, 6%);
 }
 
+h1 a
+{
+    text-decoration: none;
+    color: hsl(18,83%,58%);
+    font-family: 'Glory', sans-serif;
+}
+
 h1
 {
     font-size: 3rem;
@@ -104,12 +111,6 @@ button:hover
     box-shadow: 2px 2px 2px hsl(18,83%,58%);
 }
 
-h1 a
-{
-    text-decoration: none;
-    color: hsl(18,83%,58%);
-    font-family: 'Glory', sans-serif;
-}
 body
 {
     background-color: hsl(86,24%,77%);
@@ -121,6 +122,12 @@ ul
     overflow: hidden;
     list-style-type: none;
     padding: 50px;
+}
+
+ul a
+{
+    color: mediumseagreen;
+    text-decoration: none;
 }
 
 li
@@ -142,6 +149,14 @@ li a
     width: 230px;
 }
 
+.SidebarText
+{
+    height: 40px;
+    line-height: 40px;
+    margin: 5px;
+    display: inline-block;
+}
+
 .sidebar img
 {
     width: 40px;
@@ -153,12 +168,4 @@ li a
 .TextBlog
 {
     color: hsl(93, 86%, 27%);
-}
-
-.SidebarText
-{
-    height: 40px;
-    line-height: 40px;
-    margin: 5px;
-    display: inline-block;
 }
