@@ -30,6 +30,11 @@ h3
     color: hsl(173,22%,15%)
 }
 
+.Overskrifter
+{
+    margin: 4px;
+}
+
 p
 {
     color: hsl(173,22%,15%); 
@@ -65,7 +70,7 @@ footer
     font-family: 'Glory', sans-serif;
 }
 
-img
+.FrontpageIMG
 {
     width: 1000px;
     border-radius: 10px;
@@ -75,6 +80,18 @@ a img
 {
     width: 200px;
     border-radius: 15px;
+}
+
+.Imgfloatleft
+{
+    float: left;
+    margin-right: 10px;
+}
+
+.Imgfloatright
+{
+    float: right;
+    margin-left: 10px;
 }
 
 main
