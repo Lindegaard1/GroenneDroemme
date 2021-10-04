@@ -1,0 +1,124 @@
+h1
+{
+   text-align: center;
+   font-size: 32px;
+   font-weight: bold;
+}
+
+h2
+{
+    text-align: center;
+    font-size:18px;
+    font-weight: bold;
+}
+
+body
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent
+{
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc;
+}
+
+.p1
+{
+    justify-content: flex-start;
+}
+
+.p2
+{
+    justify-content: flex-end;
+}
+
+.p3
+{
+    justify-content: center;
+}
+
+.p4
+{
+    justify-content: space-between;
+}
+
+.p5
+{
+    justify-content: space-around;
+}
+
+.p6
+{
+    align-items: flex-start;
+}
+
+.p8
+{
+    align-items: center;
+}
+
+.p9
+{
+    flex-wrap: wrap;
+
+}
+
+.p10
+{
+    align-self: flex-end;
+}
+
+.p11
+{
+    order:unset
+}
+
+.p12
+{
+    flex: auto;
+}
+
+.px
+{
+    height: 100px;
+}
+
+.child
+{
+    width: 100px;
+    padding: 10px;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 42px;   
+}
+
+.c1
+{
+    background-color: red;
+}
+
+.c2
+{
+    background-color: green;
+}
+
+.c3
+{
+    background-color: blue;
+}
+
+.c4
+{
+    background-color: orange;
+}
+
+.cx
+{
+    height: 50px;
+    width: 200px;
+}
