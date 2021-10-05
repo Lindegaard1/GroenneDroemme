@@ -1,0 +1,76 @@
+h1
+{
+   text-align: center;
+   font-size: 32px;
+   font-weight: bold;
+}
+
+.Cube
+{
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 570px;
+}
+
+.CubeBox
+{
+    display: flex;
+    width: 180px;
+    height: 180px;
+    background-color: #999;
+    margin: 5px;
+}
+
+.Yb
+{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+}
+
+.YTM
+{
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.YTR
+{
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.YML
+{
+    align-items: center;
+}
+
+.YM
+{
+    align-items: center;
+    justify-content: center;
+}
+
+.YMR
+{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.YBL
+{
+    align-items: flex-end;
+}
+
+.YBM
+{
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.YBR
+{
+    align-items: flex-end;
+    justify-content: flex-end;
+}

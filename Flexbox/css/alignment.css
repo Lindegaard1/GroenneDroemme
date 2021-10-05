@@ -75,7 +75,7 @@ body
 
 .p11
 {
-    order:unset
+    order: unset;
 }
 
 .p12
@@ -94,7 +94,8 @@ body
     padding: 10px;
     color: #fff;
     box-sizing: border-box;
-    font-size: 42px;   
+    font-size: 42px; 
+    height: 68px;  
 }
 
 .c1
@@ -117,8 +118,38 @@ body
     background-color: orange;
 }
 
-.cx
+.c09
 {
     height: 50px;
     width: 200px;
+}
+
+.c10
+{
+    align-self: flex-end;
+}
+
+.cflex
+{
+    flex: auto;
+}
+
+.order1
+{
+    order: 1;
+}
+
+.order2
+{
+    order: 2;
+}
+
+.order3
+{
+    order: 3;
+}
+
+.order4
+{
+    order: 4;
 }
