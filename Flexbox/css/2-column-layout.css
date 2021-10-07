@@ -1,0 +1,49 @@
+body , :root
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header
+{
+    height: 50px;
+    background-color: #666;
+}
+
+.content
+{
+    display: flex;
+    background-color: #ccc;
+    height: 100vh;
+    justify-content: flex-end;
+}
+
+.sidebar
+{
+    width: 20%;
+    background-color: #999;
+}
+
+.Footer
+{
+    height: 50px;
+    background-color: #666;
+}
+
+.columns
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.art
+{
+    width: flex;
+    background-color: #ccc;
+}
