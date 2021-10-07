@@ -18,7 +18,14 @@ body , :root
     width: 100%;
 }
 
-.sidebar
+.sidebar-1
+{
+    width: 20%;
+    background-color: #999;
+    height: 100vh;
+}
+
+.sidebar-2
 {
     width: 20%;
     background-color: #999;

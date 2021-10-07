@@ -1,0 +1,197 @@
+h1,h2
+{
+    color: hsl(18,83%,58%);
+    font-family: 'Glory', sans-serif;
+    line-height: 4rem;
+    text-shadow: -2px 2px 2px hsl(0, 3%, 6%);
+}
+
+h1 a
+{
+    text-decoration: none;
+    color: hsl(18,83%,58%);
+    font-family: 'Glory', sans-serif;
+}
+
+h1
+{
+    font-size: 3rem;
+}
+
+h2
+{
+    font-size: 2rem;
+}
+
+h3
+{
+    font-size: 1,5rem;
+    line-height: 4rem;
+    color: hsl(173,22%,15%)
+}
+
+.Overskrifter
+{
+    margin: 4px;
+}
+
+p
+{
+    color: hsl(173,22%,15%); 
+    font-family: 'Glory', sans-serif;
+    line-height: 2rem;
+}
+
+ul a
+{
+    color: mediumseagreen;
+    text-decoration: none;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+header
+{
+    text-align: center;
+    background-color: hsl(93, 82%, 26%);
+    margin: 0px;
+}
+
+footer
+{
+    height: 40px;
+    background-color: hsl(93,82%,26%);
+    color: hsl(18,83%,58%);
+    text-align: center;
+    font-family: 'Glory', sans-serif;
+}
+
+.FrontpageIMG
+{
+    width: 1000px;
+    border-radius: 10px;
+}
+
+a img
+{
+    width: 200px;
+    border-radius: 15px;
+}
+
+.Imgfloatleft
+{
+    float: left;
+    margin-right: 10px;
+}
+
+.Imgfloatright
+{
+    float: right;
+    margin-left: 10px;
+}
+
+main
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+nav
+{
+    /* position: sticky; */
+    top:0;
+    text-align: center;
+    background-color: hsl(93,82%,26%);
+    height: 50px;
+    padding: 10px;
+}
+button
+{
+    background-color: hsl(18,83%,58%);
+    color: hsl(173,22%,15%);
+    width: 175px;
+    height: 50px;
+    font-family: 'Glory', sans-serif;
+    border-radius: 15px;
+    transition-duration: 0,4ms;
+}
+
+button:hover
+{
+    background-color: hsl(0, 3%, 6%);
+    color: hsl(86,24%,77%);
+    box-shadow: 2px 2px 2px hsl(18,83%,58%);
+}
+
+body
+{
+    background-color: hsl(86,24%,77%);
+    font-family: 'Glory', sans-serif;
+}
+
+ul
+{
+    overflow: hidden;
+    list-style-type: none;
+    padding: 50px;
+}
+
+ul a
+{
+    color: mediumseagreen;
+    text-decoration: none;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    padding: 15px;
+}
+
+.sidebar
+{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(33,39%,86%,0.5);
+    height: 100%;
+    width: 230px;
+    margin-right: 5px;
+}
+
+.SidebarText
+{
+    line-height: 40px;
+    margin: 5px;
+}
+
+.sidebar img
+{
+    height: 40px;
+    margin: 5px;
+}
+
+.TextBlog
+{
+    color: hsl(93, 86%, 27%);
+}
+
+.flexbox
+{
+    display: flex;
+}
+
+.spacearound
+{
+    justify-content: space-evenly;
+}
