@@ -1,37 +1,80 @@
+/* er til at fjerne standart margins og padding på siden */
 *
 {
     margin: 0%;
     padding: 0%;
 }
-
+/* er brugt til at sætte størelse på siden og bagrunds farve */
 body
 {
     height: 100vh;
     background-color: hsl(0, 0%, 86%);
 }
-
-header
-{
-    background-color: hsl(27, 67%, 30%);
-    height: 2.5vh;
-}
-
-footer
+/* bestemmer størelse og farve på både header og footer */
+header , footer
 {
     background-color: hsl(27, 67%, 30%);
     height: 5vh;
 }
 
+header
+{
+    justify-content: flex-end;
+}
+
+header>a
+{
+    display: none;
+}
+/* er en standart klasse til at lave ting til flex box */
 .Flexbox
 {
     display: flex;
 }
+/* får mine flex-items til at stå rigtigt */
+.Flex-css
+{
+    flex-direction: column;
+    align-items: center;
+}
 
+.faktabox
+{
+    background-color: hsla(0, 0%, 100%, 0.4);
+    justify-content: center;
+    margin: 1rem;
+}
+
+/* bruges til at bestemme hvad farve og størelse og skærft type text skal have */
 h1
 {
     margin-left: 0.5rem;
     font-size: 5vh;
     color: hsl(27, 67%, 30%);
+}
+
+.h1-fuglesite
+{
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+
+.h1-h2-fuglesite
+{
+    font-size: 2rem; 
+    color: hsl(180, 25%, 25%);
+}
+
+.p-fuglesite
+{
+    font-size: 0.9rem;
+    margin: 0.2rem;
+}
+
+.a-none
+{
+    box-shadow: none;
+    text-shadow: none;
 }
 
 h2
@@ -47,35 +90,65 @@ p
     margin: 0.5rem;
     line-height: 1.5rem;
     color: hsl(180, 25%, 25%);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.link
+h1,h2
 {
+    font-family: 'Lato', sans-serif;
+}
+
+p,a,li
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+li
+{
+    line-height: 2rem;
+}
+
+/* til at få links til at se flotte ud  */
+a
+{
+    box-shadow: 0.1rem 0.1rem 0.6rem hsl(27, 67%, 30%);
     text-decoration: none;
     font-size: 1rem;
     color: hsl(180, 25%, 25%);
     margin: 0.5rem;
     font-weight: bold;
+    text-shadow: 0.1rem 0.1rem 0.8rem hsl(27, 67%, 30%);
 }
 
-.Flex-css
+a:hover
 {
-    flex-direction: column;
-    align-items: center;
-}
+    opacity: 0.4;
+} 
 
-.font-family-lato
+.header-img
 {
-    font-family: 'Lato', sans-serif;
-}
-
-.font-family-roboto
-{
-    font-family: 'Roboto', sans-serif;
+    display: none;
 }
 
 @media only screen and (min-width: 500px) 
 {
+  header
+  {
+      justify-content: space-evenly;
+  }  
   
+  header>img
+  {
+      display: none;
+  }  
+  
+  header>a
+  {
+      display: block;
+      color: hsl(0, 0%, 86%);
+  }
+
+  .header-img
+  {
+      display: block;
+  }
 }
