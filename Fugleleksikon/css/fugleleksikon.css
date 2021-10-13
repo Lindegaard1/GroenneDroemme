@@ -9,6 +9,7 @@ body
 {
     height: 100vh;
     background-color: hsl(0, 0%, 86%);
+    overflow-x: hidden;
 }
 /* bestemmer størelse og farve på både header og footer */
 header , footer
@@ -134,11 +135,7 @@ a:hover
   header
   {
       justify-content: space-evenly;
-  }  
-  
-  header>img
-  {
-      display: none;
+      width: 100vw;
   }  
   
   header>a
@@ -151,4 +148,23 @@ a:hover
   {
       display: block;
   }
+
+  .Bars-solid
+  {
+      display: none;
+  }
+
+  main
+  {
+      width: 1000px;
+      margin: auto;
+  }
+
+  .Flex-css
+  {
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
 }
+
