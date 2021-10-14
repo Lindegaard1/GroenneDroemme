@@ -1,0 +1,67 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Flex
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+    background-color: black;
+}
+
+nav
+{
+    background-color: hsl(60, 100%, 60%);
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a
+{
+    text-decoration: none;
+    color: darkslategray;
+}
+
+main
+{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-nav
+{
+    height: 50px;
+}
+
+.img-man
+{
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 700px) 
+{
+
+}
+
+@media only screen and (min-width: 1000px) 
+{
+
+}
+
+@media only screen and (min-width: 1200px) 
+{
+
+}
