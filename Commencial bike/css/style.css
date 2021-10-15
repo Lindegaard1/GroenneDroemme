@@ -15,7 +15,7 @@ header
     background-color: black;
 }
 
-nav
+.nav
 {
     background-color: hsl(60, 100%, 60%);
     flex-direction: row;
@@ -43,12 +43,18 @@ main
 .img-nav
 {
     height: 50px;
+    margin-right: 0.3rem;
 }
 
 .img-man
 {
     max-width: 100%;
     height: auto;
+}
+
+.bottom-box
+{
+    background-color: lightslategray;
 }
 
 @media only screen and (min-width: 700px) 
