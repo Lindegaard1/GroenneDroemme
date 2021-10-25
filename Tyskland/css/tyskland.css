@@ -1,0 +1,58 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, Sans Serif;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: hsl(0, 0%, 80%);
+    align-items: flex-start;
+}
+
+header>img
+{
+    width: 250px;
+}
+
+.top
+{
+    display: flex;
+    justify-content: flex-start;
+    height: 5vh;
+    background-color: hsl(0, 0%, 34%);
+    font-size: 4.5vh;
+}
+
+.top>img
+{
+    margin-left: 0.3rem;
+}
+
+h5
+{
+    margin-left: 1rem;
+}
+
+.top>ul
+{
+    display: none;
+}
+
+@media only screen and (min-width: 500px) 
+{
+
+}
+
+@media only screen and (min-width: 900px) 
+{
+
+}
+
+@media only screen and (min-width: 1200px) 
+{
+
+}
