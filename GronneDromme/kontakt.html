@@ -31,55 +31,54 @@
                 
                 <p>
                     <label for="navn">Navn:</label>
-                    <input type="text" name="Navn" id="navn">
+                    <input type="text" name="Navn">
                 </p>
                 
                 <p>
                     <label for="e-mail">E-mail adresse:</label>
-                    <input type="text" name="e-mail" id="e-mail">
+                    <input type="text" name="e-mail">
                 </p>
                 
                 <p>
                     <label for="besked">besked:</label>
-                    <textarea name="besked" placeholder="indtast din besked..." id="besked" cols="30" rows="10"></textarea>
+                    <textarea name="besked" placeholder="indtast din besked..." cols="30" rows="10"></textarea>
                 </p>
                 
                 <p>Ny plante til databasen:</p>
                 
                 <p>
                     <label for="planteDKnavn">Plantens danske navn:</label>
-                    <input type="text" name="planteDKnavn" id="planteDKnavn">
+                    <input type="text" name="planteDKnavn">
                 </p>
                 
                 <p>
                     <label for="planteVariant">Plantens variant:</label>
-                    <input type="text" name="planteVariant" id="planteVariant">
+                    <input type="text" name="planteVariant">
                 </p>
                 
                 <p>
                     <label for="planteBOTnavn">Plantens botaniske navn:</label>
-                    <input type="text" name="planteBOTnavn" id="planteBOTnavn">
+                    <input type="text" name="planteBOTnavn">
                 </p>
                 
                 <p>
                     <label for="planteType">Plantens type:</label>
-                    <input type="text" name="planteType" id="planteType">
+                    <input type="text" name="planteType">
                 </p>
 
                 <p>
-                    <label for="planteHøjde">Plante højde: <input type="number" name="planteHøjde" id="planteHøjde"> cm</label>
+                    <label for="planteHøjde">Plante højde:</label>
+                    <input type="number" name="planteHøjde"> cm
                 </p>
 
                 <p>
-                    <label for="planteHøjde">Plante højde: <input type="number" name="planteHøjde" id="planteHøjde"> cm</label>
+                    <label for="planteAfstand">Plante rækkeafstand:</label>
+                    <input type="number" name="planteAfstand"> cm
                 </p>
 
                 <p>
-                    <label for="planteAfstand">Plante rækkeafstand: <input type="number" name="planteAfstand" id="planteAfstand"> cm</label>
-                </p>
-
-                <p>
-                    <label for="planteDybde">Plante sådybde: <input type="number" name="planteDybde" id="planteDybde"> cm</label>
+                    <label for="planteDybde">Plante sådybde:</label>
+                    <input type="number" name="planteDybde"> cm
                 </p>
                 
                 <p>
@@ -89,6 +88,63 @@
                         <option value="Delvis sol">Delvis sol</option>
                         <option value="Skygge">Skygge</option>
                     </select>
+                </p>
+
+                <p>
+                    <label for="månedsListe">Planten forspires i:</label>
+                    <label for="vælgFlere">(vælg flere med ctrl eller shift)</label>
+                    <select name="månedsListe" size="12">
+                        <option value="Januar">Januar</option>
+                        <option value="Februar">Februar</option>
+                        <option value="Marts">Marts</option>
+                        <option value="Aprill">Aprill</option>
+                        <option value="Maj">Maj</option>
+                        <option value="Juni">Juni</option>
+                        <option value="Juli">Juli</option>
+                        <option value="August">August</option>
+                        <option value="Sebtember">Sebtember</option>
+                        <option value="Oktober">Oktober</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                </p>
+                
+                <p>
+                    <label for="månedsListe">Planten udplantes i:</label>
+                    <label for="vælgFlere">(vælg flere med ctrl eller shift)</label>
+                    <select name="månedsListe" size="12">
+                        <option value="Januar">Januar</option>
+                        <option value="Februar">Februar</option>
+                        <option value="Marts">Marts</option>
+                        <option value="Aprill">Aprill</option>
+                        <option value="Maj">Maj</option>
+                        <option value="Juni">Juni</option>
+                        <option value="Juli">Juli</option>
+                        <option value="August">August</option>
+                        <option value="Sebtember">Sebtember</option>
+                        <option value="Oktober">Oktober</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="planteSpire">Planten spirer efter ca.:</label>
+                    <input type="number" name="planteSpire"> dage
+                </p>
+
+                <p>
+                    <label for="planteHøst">Planten er klar til høst efter ca.:</label>
+                    <input type="number" name="planteHøst"> dage
+                </p>
+
+                <p>
+                    <label for="planteBeskivelse">Plantebeskivelse:</label>
+                    <textarea name="planteBeskivelse" placeholder="Udfyld her" cols="30" rows="10"></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" name="Indsend">
                 </p>
             </form>
         
