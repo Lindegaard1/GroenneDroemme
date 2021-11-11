@@ -1,0 +1,55 @@
+/* KONTAKT OS */
+
+#kontaktos .contactform {
+    display: flex;
+    flex-direction: column;
+}
+
+#kontaktos .contactform p {
+    display: flex;
+    justify-content: space-between;
+}
+
+#kontaktos .contactform textarea {
+    resize: none;
+}
+
+#kontaktos .contactform textarea, input {
+    width: 50vw;
+}
+
+#kontaktos .contactform textarea, input {
+    background-color: lightgray;
+}
+
+#kontaktos .contactform textarea:focus, input:focus {
+    background-color: white;
+}
+
+#kontaktos p.indsend {
+    align-self: center;
+    width: 10vw;
+}
+
+#kontaktos p.indsend input {
+    background-color: white;
+}
+
+@media only screen and (min-width: 840px) {
+
+    #kontaktos .contactform {
+        width: 47.5%;
+    }
+
+    #kontaktos .contactform textarea, input {
+        width: 30vw;
+    }
+
+    #kontaktos .contactform input {
+        width: 25vw;
+    }
+
+    #kontaktos p.indsend {
+        margin-top: 7vh;
+    }
+}
